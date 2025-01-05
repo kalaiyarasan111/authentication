@@ -15,7 +15,7 @@ app.use(cors({ origin: 'http://localhost:3000', credentials: true }));
 
 app.use('/api/auth', authRoutes);
 app.get('/', (req, res) => {
-    res.send('hello world')
+    res.send('hello world!')
   })
 
 const PORT = process.env.PORT || 5000;
